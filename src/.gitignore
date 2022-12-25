@@ -7,7 +7,7 @@
 .DS_Store
 .project
 # omit Go vendor directories
-vendor/
+# vendor/
 .vscode
 .gradle
 .idea
@@ -22,9 +22,9 @@ package-lock.json
 .settings
 
 # installed Fabric binaries etc.
-bin/
-builders/
-config/
+# bin/
+# builders/
+# config/
 external-chaincode/
 install-fabric.sh
 
